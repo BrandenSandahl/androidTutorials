@@ -15,12 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DisplayMessageActivity"
-                  android:label="@string/title_activity_display_message"
-                  android:parentActivityName=".MyActivity">
+        <activity
+            android:name=".DisplayMessageActivity"
+            android:label="@string/title_activity_display_message"
+            android:parentActivityName=".MyActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MyActivity" />
+                android:value="com.sixtel.myfirstapp.MyActivity" />
         </activity>
     </application>
 
